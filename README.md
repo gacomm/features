@@ -1,4 +1,4 @@
-# features
+# Features
 place to store various features we create.
 
 For more information and to download the Features module go to https://www.drupal.org/project/features
