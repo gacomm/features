@@ -1,0 +1,7 @@
+name = Editor Role
+description = An Editor role to use for the creation of users such as clients, writers, and account people
+core = 7.x
+package = Features
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = editor
