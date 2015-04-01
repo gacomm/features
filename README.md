@@ -16,4 +16,4 @@ Please do not replace the modules in the features repository unless you are sure
 <strong>Overridden</strong> - a feature is overridden when a user uses the UI to make configuration changes. These changes are stored in the database, and override what is stored in code.<br/>
 <strong>Disabled</strong> - a feature is a module, and therefore must be enabled before it can be used. Otherwise, it is disabled.<br/>
 <strong>Revert</strong>- if a feature has been overridden, it can be reverted. This means that the version in the database is destroyed and the version defined in code, in your feature, is used.<br/>
-<strong>Update</strong> - updating an overridden feature will ensure that the version of the feature defined in code is made to match the version stored in the database.
+<strong>Update/Recreate</strong> - updating an overridden feature will ensure that the version of the feature defined in code is made to match the version stored in the database.
